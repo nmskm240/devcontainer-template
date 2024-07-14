@@ -9,6 +9,12 @@
             "target": "/workspace"
         }
     ],
+	"remoteEnv": {
+		"CONTAINER_NAME": "hoge"
+	},
+	"containerEnv": {
+		"DONT_PROMPT_WSL_INSTALL": "1"
+	},
     "workspaceFolder": "/workspace",
     "customizations": {
         "vscode": {
