@@ -1,0 +1,18 @@
+{
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ]
+        }
+    },
+    "plantuml.exportIncludeFolderHeirarchy": false,
+    "plantuml.exportSubFolder": false,
+    "plantuml.render": "Local",
+    "plantuml.exportOutDir": "doc",
+    "files.exclude": {
+        "**/.gitkeep": true
+    },
+}

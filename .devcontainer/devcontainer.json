@@ -1,0 +1,21 @@
+{
+    "name": "workspace",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "workspace",
+    "mounts": [
+        {
+            "type": "bind",
+            "source": "../",
+            "target": "/workspace"
+        }
+    ],
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "EditorConfig.EditorConfig",
+                "jebbs.plantuml",
+            ]
+        }
+    }
+}

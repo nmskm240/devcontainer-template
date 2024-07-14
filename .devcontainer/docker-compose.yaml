@@ -1,0 +1,8 @@
+services:
+  workspace:
+    container_name: ${CONTAINER_NAME}
+    build:
+      context: .
+      dockerfile: .Dockerfile
+    user: "${USER_NAME}"
+    tty: true
